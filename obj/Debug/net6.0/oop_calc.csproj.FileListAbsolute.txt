@@ -1,0 +1,15 @@
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/bin/Debug/net6.0/oop_calc
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/bin/Debug/net6.0/oop_calc.deps.json
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/bin/Debug/net6.0/oop_calc.runtimeconfig.json
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/bin/Debug/net6.0/oop_calc.dll
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/bin/Debug/net6.0/oop_calc.pdb
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/obj/Debug/net6.0/oop_calc.csproj.AssemblyReference.cache
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/obj/Debug/net6.0/oop_calc.GeneratedMSBuildEditorConfig.editorconfig
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/obj/Debug/net6.0/oop_calc.AssemblyInfoInputs.cache
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/obj/Debug/net6.0/oop_calc.AssemblyInfo.cs
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/obj/Debug/net6.0/oop_calc.csproj.CoreCompileInputs.cache
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/obj/Debug/net6.0/oop_calc.dll
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/obj/Debug/net6.0/refint/oop_calc.dll
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/obj/Debug/net6.0/oop_calc.pdb
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/obj/Debug/net6.0/oop_calc.genruntimeconfig.cache
+/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/obj/Debug/net6.0/ref/oop_calc.dll

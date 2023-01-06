@@ -17,7 +17,7 @@ namespace Fs
                     for (int i = 0; i < datas.Count(); i++)
                     {    
                         string[] item = datas[i];
-                        string line = string.Join(" = ", item);
+                        string line = string.Join(" = ", item);  // separate a expr and value with =
                         writer.WriteLine(line);
                     }
                     Console.WriteLine("File in "+ filePath+ " saved successfully");

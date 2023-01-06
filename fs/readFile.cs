@@ -4,6 +4,9 @@ namespace Fs
 {
     class ReadFile{
 
+       /* 
+        Constructor used for reading file
+       */
         public ReadFile(string filePath){
             try
             {
@@ -24,7 +27,10 @@ namespace Fs
                  new Exception("Erreur de lectures");
             }
         }
-
+        
+        /**
+            for parse a string array
+        */
         static void printList(List<string[]> data){
             
               for(int i = 0; i <= data.Count(); i++){

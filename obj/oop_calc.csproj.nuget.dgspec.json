@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/oop_calc.csproj": {}
+    "/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/calcs/oop_calc/oop_calc.csproj": {}
   },
   "projects": {
-    "/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/oop_calc.csproj": {
+    "/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/calcs/oop_calc/oop_calc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/oop_calc.csproj",
+        "projectUniqueName": "/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/calcs/oop_calc/oop_calc.csproj",
         "projectName": "oop_calc",
-        "projectPath": "/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/oop_calc.csproj",
+        "projectPath": "/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/calcs/oop_calc/oop_calc.csproj",
         "packagesPath": "/home/ibrahim/.nuget/packages/",
-        "outputPath": "/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/oop_calc/obj/",
+        "outputPath": "/home/ibrahim/dev/dotNetProjects/gabBootCamp/training/calcs/oop_calc/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ibrahim/.nuget/NuGet/NuGet.Config"
@@ -20,6 +20,7 @@
           "net6.0"
         ],
         "sources": {
+          "/usr/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +38,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "ncalc": {
+              "target": "Package",
+              "version": "[1.3.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

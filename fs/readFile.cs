@@ -4,8 +4,6 @@ namespace Fs
 {
     class ReadFile{
 
-        List<string[]> data = new List<string[]>();
-
         public ReadFile(string filePath){
             try
             {

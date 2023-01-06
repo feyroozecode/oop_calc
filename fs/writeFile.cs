@@ -3,12 +3,15 @@ using System.IO;
 
 namespace Fs
 {
-    // write a csv file to save 
+    /* write tesxt and save it to .csv file  
+      @filePath : relateive file path
+      @datas : string of array of array of strings
+    */
     class WriteFile{
         public WriteFile(String filePath, string[][] datas){
             try
             {
-                // Streamwriter for write a new data to the csv 
+                // using StreamWrite for write a new data to the csv file
                 // AppendText from File add new text without delete previous datas in the file
                 using (StreamWriter writer = File.AppendText(filePath)) {
                     for (int i = 0; i < datas.Count(); i++)
@@ -17,7 +20,7 @@ namespace Fs
                         string line = string.Join(" = ", item);
                         writer.WriteLine(line);
                     }
-                    //Console.WriteLine("File in "+ filePath+ " saved successfully");
+                    Console.WriteLine("File in "+ filePath+ " saved successfully");
                 }      
             }
             catch (System.Exception)
